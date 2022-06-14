@@ -1,2 +1,5 @@
 "use strict";
-console.log("Hello World");
+let empregado = {
+    code: 10,
+    name: "John"
+};
