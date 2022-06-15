@@ -22,22 +22,26 @@ let pessoa1 = {
     idade: 29,
     profissao: Profissao.Atriz,
 };
-console.log(pessoa1 = validarIdade(pessoa1, pessoa1.idade));
+pessoa1 = validarIdade(pessoa1, pessoa1.idade);
+console.log(pessoa1);
 let pessoa2 = {
     nome: "Roberto",
     idade: 19,
     profissao: Profissao.Padeiro,
 };
-console.log(pessoa2 = validarIdade(pessoa2, pessoa2.idade));
+pessoa2 = validarIdade(pessoa2, pessoa2.idade);
+console.log(pessoa2);
 let pessoa3 = {
     nome: "Laura",
     idade: "32",
     profissao: Profissao.Atriz,
 };
-console.log(pessoa3 = validarIdade(pessoa3, pessoa3.idade));
+pessoa3 = validarIdade(pessoa3, pessoa3.idade);
+console.log(pessoa3);
 let pessoa4 = {
     nome: "Carlos",
     idade: 19,
     profissao: Profissao.Padeiro,
 };
-console.log(pessoa4 = validarIdade(pessoa4, pessoa4.idade));
+pessoa4 = validarIdade(pessoa4, pessoa4.idade);
+console.log(pessoa4);

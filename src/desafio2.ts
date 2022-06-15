@@ -30,7 +30,8 @@ let pessoa1: IPessoa = {
   profissao: Profissao.Atriz,
 };
 
-console.log(pessoa1 = validarIdade(pessoa1, pessoa1.idade));
+pessoa1 = validarIdade(pessoa1, pessoa1.idade)
+console.log(pessoa1);
 
 let pessoa2: IPessoa = {
   nome: "Roberto",
@@ -38,7 +39,8 @@ let pessoa2: IPessoa = {
   profissao: Profissao.Padeiro,
 };
 
-console.log(pessoa2 = validarIdade(pessoa2, pessoa2.idade));
+pessoa2 = validarIdade(pessoa2, pessoa2.idade)
+console.log(pessoa2);
 
 let pessoa3: IPessoa = {
   nome: "Laura",
@@ -46,7 +48,8 @@ let pessoa3: IPessoa = {
   profissao: Profissao.Atriz,
 };
 
-console.log(pessoa3 = validarIdade(pessoa3, pessoa3.idade));
+pessoa3 = validarIdade(pessoa3, pessoa3.idade)
+console.log(pessoa3);
 
 let pessoa4: IPessoa = {
   nome: "Carlos",
@@ -54,4 +57,5 @@ let pessoa4: IPessoa = {
   profissao: Profissao.Padeiro,
 };
 
-console.log(pessoa4 = validarIdade(pessoa4, pessoa4.idade));
+pessoa4 = validarIdade(pessoa4, pessoa4.idade)
+console.log(pessoa4);
